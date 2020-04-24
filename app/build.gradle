@@ -4,6 +4,9 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    dataBinding{
+        enabled = true
+    }
     defaultConfig {
         applicationId "youtube.com.vidhvan.databinding_viewmodel_livedata_starter"
         minSdkVersion 19
